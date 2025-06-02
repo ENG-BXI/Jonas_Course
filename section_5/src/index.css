@@ -137,7 +137,7 @@
 
 
 
-.item h3 {
+.item h3 ,.item span {
     font-size: 20px;
     color: #F2DDAE;
 }
@@ -145,7 +145,7 @@
 .item .close-button {
     background-color: transparent;
     border: none;
-
+    cursor: pointer;
 }
 
 .footer {
