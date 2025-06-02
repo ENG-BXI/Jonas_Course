@@ -4,7 +4,6 @@ function handleChangeCheckBox(index: number, item: ObjectType, listOfObjects: Ob
   item.isComplete = !item.isComplete;
   listOfObjects[index] = item;
   setListOfObjects([...listOfObjects]);
-  console.log(listOfObjects);
 }
 function handleDelete(item: ObjectType, listOfObjects: ObjectType[], setListOfObjects: React.Dispatch<React.SetStateAction<ObjectType[]>>) {
   listOfObjects = listOfObjects.filter(localItem => {

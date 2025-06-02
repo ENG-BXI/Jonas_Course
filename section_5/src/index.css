@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 * {
     padding: 0;
     margin: 0;
@@ -137,7 +138,8 @@
 
 
 
-.item h3 ,.item span {
+.item h3,
+.item span {
     font-size: 20px;
     color: #F2DDAE;
 }
@@ -151,4 +153,11 @@
 .footer {
     background-color: #67C1A3;
     height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: #4C3423;
+
 }

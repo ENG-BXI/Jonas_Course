@@ -7,7 +7,6 @@ import type {ObjectType} from './Type/ObjectType';
 
 function App() {
   const [listOfObjects, setListOfObjects] = useState<ObjectType[]>([]);
-  console.log(listOfObjects);
   
   return (
     <>
