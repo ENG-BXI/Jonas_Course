@@ -14,7 +14,7 @@ function handleDelete(item: ObjectType, listOfObjects: ObjectType[], setListOfOb
 const Item = ({item, listOfObjects, setListOfObjects, index}: {item: ObjectType; listOfObjects: ObjectType[]; index: number; setListOfObjects: React.Dispatch<React.SetStateAction<ObjectType[]>>}) => {
   return (
     <div className='item'>
-      <input
+      <input checked={item.isComplete}
         onClick={() => {
           handleChangeCheckBox(index, item, listOfObjects, setListOfObjects);
         }}
