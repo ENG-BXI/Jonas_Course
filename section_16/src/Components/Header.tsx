@@ -11,7 +11,7 @@ const Header = ({setListOfObjects}: {setListOfObjects: React.Dispatch<React.SetS
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (inputText !== '') {
-      // setListOfObjects(list => [...list, {id: Date.now().toString(), text: inputText, numberOfObject: inputSelect, isComplete: false}]);
+      setListOfObjects(list => [...list, {id: Date.now().toString(), text: inputText, numberOfObject: inputSelect, isComplete: false}]);
       ResetInputs();
     }
   }

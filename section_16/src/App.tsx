@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {useState} from 'react';
 import './App.css';
 import Footer from './Components/Footer';
@@ -18,3 +19,22 @@ function App() {
 }
 
 export default App;
+=======
+import './App.css'
+import Footer from './Components/Footer'
+import Header from './Components/Header'
+import Main from './Components/Main'
+
+function App() {
+
+  return (
+    <>
+      <Header />
+      <Main/>
+      <Footer/>
+    </>
+  )
+}
+
+export default App
+>>>>>>> section_7
